@@ -1,1 +1,7 @@
 #Git spurningar og svör
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd	 	svar: Skiptir um möppu
+	cd ~ 	svar: Fer inná heimsvæðið þitt (rótina í linux)
+	ls 		svar: Birtir innihald möppunnar sem þú ert í
+	pwd  	svar: Birtir í hvaða möppu þú ert staðsettur alla leið frá heimasvæðinu þínu
+	mkdir svar: Býr til nýja möppu
