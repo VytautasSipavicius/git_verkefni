@@ -6,8 +6,13 @@
 	pwd  	svar: Birtir í hvaða möppu þú ert staðsettur alla leið frá heimasvæðinu þínu
 	mkdir svar: Býr til nýja möppu
 2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
-	git clone		svar: klónar Verkefni "repository" yfir í ný búnna til möppu og bætir við remote-tracking greinar  fyrir hverja grein í klónaða verkefninu, og býr til og skoðar allar fyrstu greinanar sem 				eru fengnar úr klónaða verkefnis núverandi grein. 
+	git clone		svar: klónar Verkefni "repository" yfir í ný búnna til möppu og bætir við remote-tracking greinar  fyrir hverja grein í klónaða verkefninu, og býr til og skoðar allar fyrstu greinanar sem eru fengnar úr klónaða verkefnis núverandi grein. 
 	git log 		svar: Sýnir log fælana fyrir commit. Hægt er að láta þetta ráða því hvernig log fælarnir fyrir commitið eru birtir
 	git status 		svar: sýnir mismuninn á þeim paths í því tréi sem þú ert að vinna í og aðal fileinum
 	git diff 		svar: Sýnir breytingar á því tréi sem þú ert að vinna og einhverju öðru.
-	git checkout	svar: Uppfærir skrárnar í því tréi sem þú ert að vinna í til að vera í 						samræmi við aðal tréið eða það tré sem þú tekur fram
+	git checkout	svar: Uppfærir skrárnar í því tréi sem þú ert að vinna í til að vera í samræmi við aðal tréið eða það tré sem þú tekur fram
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff
+	b) git diff --staged
+	c) git diff commit1 commit2
+	svar: git diff sýnir mismuninn á aðal tréinu og því tréi sem þú ert að vinna í núna, git diff -- staged sýnir sama mismunn eftir að þú ert búinn að gera git add . og git diff commit1 commit2 sýnir mismunin á tveimur mismunandi tréum.
