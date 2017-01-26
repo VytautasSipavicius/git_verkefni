@@ -17,3 +17,4 @@
 	c) git diff commit1 commit2
 	svar: git diff sýnir mismuninn á aðal tréinu og því tréi sem þú ert að vinna í núna, git diff -- staged sýnir sama mismunn eftir að þú ert búinn að gera git add . og git diff commit1 commit2 sýnir mismunin á tveimur mismunandi tréum.
 4. Hvað er útgáfustýring (e. version control)? svar: Það er kerfi sem tekur niður breytingar sem eru gerðar á skrá eða skrám svo þú getur farið til baka í eldri útgáfur af skránni/skránum
+5. Hverjir eru helstu kostir við að nota GIT? svar: Þú getur unnið með mörgum í einu á sama tíma og ef eitthvað mishepnast þá getur þú farið til baka og breytt í eldir útgáfur af skjalinu, s.s. ert með frían "oops" takka.
